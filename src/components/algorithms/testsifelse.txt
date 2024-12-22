@@ -1,0 +1,22 @@
+                // if (keyboard[parseInt(arrayOfNumbers.charAt(1))-1].includes(objWords[i].charAt(1))) {
+                    
+                    
+                //     if (keyboard[parseInt(arrayOfNumbers.charAt(2))-1].includes(objWords[i].charAt(2))) {
+
+                //         if (keyboard[parseInt(arrayOfNumbers.charAt(3))-1].includes(objWords[i].charAt(3))) {
+
+                //             if (keyboard[parseInt(arrayOfNumbers.charAt(4))-1].includes(objWords[i].charAt(4))) {
+
+                            
+
+                //                     wordsArray.push(objWords[i]);
+                        
+                        
+                        
+                //             }
+                        
+                //         }
+                        
+                //     }
+                    
+                // }
