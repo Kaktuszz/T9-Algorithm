@@ -3,6 +3,7 @@ import "./App.css";
 import { MainInput } from "./components/MainInput/MainInput";
 import { Box } from "./components/Box/Box";
 import { l49 } from "./components/algorithms/algorithms";
+import { Keyboard } from "./components/Keyboard/Keyboard";
 
 function App() {
   const [listener, setListener] = useState("");
@@ -10,7 +11,6 @@ function App() {
   const [wordId, setWordId] = useState(0);
   const previousHashCount = useRef(0); // Use a ref to persist the previous hash count
 
-  // console.log(l49("222222"))
   const wordsHandler = () => {
     setWords(l49(listener));
   };
@@ -36,6 +36,7 @@ function App() {
         {words.length !== 0 ? <Box>{words[wordId]}</Box> : <Box> {" "} </Box>}
       </h1>
       <MainInput setListener={setListener} value={listener} />
+      <Keyboard setListener={setListener} listener={listener} />
     </>
   );
 }

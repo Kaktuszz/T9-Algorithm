@@ -1,8 +1,36 @@
-#root {
+/* #root {
   max-width: 1280px;
-  margin-left: auto;
-  margin-right: auto;
+  
   padding: 2rem;
   text-align: center;
 }
+ */
 
+
+ #root {
+  max-width: 100%; /* Ensure it scales on smaller devices */
+  padding: 1rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wordShow {
+  font-size: 2em;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) { /* For tablets */
+  #root {
+      padding: 0.5rem;
+  }
+  .wordShow {
+      font-size: 1.5em;
+  }
+}
+
+@media (max-width: 480px) { /* For phones */
+  .wordShow {
+      font-size: 1.2em;
+  }
+}
