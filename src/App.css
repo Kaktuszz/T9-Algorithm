@@ -1,14 +1,5 @@
-/* #root {
-  max-width: 1280px;
-  
-  padding: 2rem;
-  text-align: center;
-}
- */
-
-
- #root {
-  max-width: 100%; /* Ensure it scales on smaller devices */
+#root {
+  max-width: 100%;
   padding: 1rem;
   text-align: center;
   margin-left: auto;
@@ -20,7 +11,7 @@
   margin-bottom: 1rem;
 }
 
-@media (max-width: 768px) { /* For tablets */
+@media (max-width: 768px) {
   #root {
       padding: 0.5rem;
   }
@@ -29,7 +20,7 @@
   }
 }
 
-@media (max-width: 480px) { /* For phones */
+@media (max-width: 480px) {
   .wordShow {
       font-size: 1.2em;
   }
