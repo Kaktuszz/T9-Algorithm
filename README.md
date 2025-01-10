@@ -1,8 +1,14 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# T9 Algorithm
 
-Currently, two official plugins are available:
+Implementation of the classic T9 algorithm with an interactive visual keyboard for input
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## How to use
+
+Your keyboard consists of keys 1-9 and the # key. Keys 2-9 are mapped to letters, with key 2 representing 'abc', key 3 for 'def', and so on. Key 1 functions as the backspace, while the # key is used to switch between words.
+
+## 🔗 Refined version
+Test the T9 algorithm here: [Link to test](https://l49-algorithm.netlify.app/)
+
+
+
