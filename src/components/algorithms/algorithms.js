@@ -1,6 +1,20 @@
-import words from "./words_dictionary.json";
+let objWords;
+const getWords = async () => {
+  try {
+    const response = await fetch("/words_dictionary.json");
+    const data = await response.json();
+    return data;
+  } catch (error) {
+    console.error("Failed to load JSON:", error);
+    throw error;
+  }
+};
 
-const objWords = Object.keys(words);
+(async () => {
+  const words = await getWords();
+  objWords = Object.keys(words);
+})();
+
 
 var keyboard = [" ", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"];
 // comments example for input 27753 (apple)

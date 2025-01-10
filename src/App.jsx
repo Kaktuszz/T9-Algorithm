@@ -9,7 +9,7 @@ function App() {
   const [listener, setListener] = useState("");
   const [words, setWords] = useState([]);
   const [wordId, setWordId] = useState(0);
-  const previousHashCount = useRef(0);
+  const previousHashCount = useRef(0); 
 
   const wordsHandler = () => {
     setWords(l49(listener));
